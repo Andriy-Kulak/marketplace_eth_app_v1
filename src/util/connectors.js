@@ -8,4 +8,4 @@ export const uport = new Connect('Andriy\'s MarketPlace v1', {
   network: 'rinkeby',
   signer: SimpleSigner(uportSigner)
 })
-export const web3 = uport.getWeb3()
+// export const web3 = uport.getWeb3()
