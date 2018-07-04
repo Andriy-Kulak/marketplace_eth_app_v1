@@ -1,9 +1,6 @@
 conduct leaf wall visit acid ask trumpet win country vault pig security
 
 
-
-
-
 commands
 - ganache-cli
 - truffle migrate --reset
@@ -29,3 +26,18 @@ Need to Figure out how to:
 - https://ethereum.stackexchange.com/questions/38865/how-to-deploy-a-truffle-app-in-heroku
 - For the connect uport, make sure to put in on the server somewhere in a lambda function
 - Persist uPort Login in local storage
+
+
+Locally Start
+1. run > ganache-cli and copy mneumoic
+2. paste the mneumonic to metamask and go to localhost:8545
+3. run > truffle migrate --reset
+4. npm run start
+
+Notes
+- deploying with Infura and Truffle: https://truffleframework.com/tutorials/using-infura-custom-provider
+    1. `truffle compile`
+    2. `truffle migrate --network rinkeby`
+- to check your deployed contract:
+    1. Go to remix, (Environment should be Injected Web3) and paste in address and click "at Address"
+
